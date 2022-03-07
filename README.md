@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Learn_Basic_Redux_Axios-Rest-Api-s-For-Juniors
+
+#I have add the Redux-basic in this working react site repo. 
+
+#You Can Learn everything about redux that are necessary for you.
+
+#Hope So, This will help you master redux using these techniques.
+
+#I also add the AXIOS-REST-API'S and store that data into redux.
+
+#This will also help you to learn AXIOS API's integration
+>>>>>>> a14d90c419056033f12957ecb1c1406db795e187
