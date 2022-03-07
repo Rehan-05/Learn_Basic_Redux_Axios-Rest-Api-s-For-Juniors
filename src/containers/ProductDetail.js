@@ -16,10 +16,12 @@ const ProductDetail = () => {
      const response = await axios.get(`https://fakestoreapi.com/products/${id}`)
       .catch((err)=> { console.log('error in the api',err);
       });
+
       Dispatch(selectedProducts(response.data));
     };
     
    useEffect(() =>{
+     console.log("Here is the  following id number",productId);
      if(productId && productId != " ") fetchProduct(productId);
    },[productId]);
 

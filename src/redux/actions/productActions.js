@@ -11,6 +11,7 @@ export const setProducts = (products) => {
 };
 
 export const selectedProducts = (product) => {
+    debugger;
     return {
         type: ActionTypes.SELECTED_PRODUCTS,
         payload: product

@@ -1,4 +1,4 @@
-import { ActionTypes } from "../constants/action-types";
+import { ActionTypes,SELECTED_PRODUCTS } from "../constants/action-types";
 
 const initialState = {
     products: [
@@ -17,8 +17,9 @@ export const productReducer= (state = initialState,{type,payload}) => {
 };
 
 export const SelectProductReducer= (state = {},{type,payload}) => {
+    debugger
     switch (type) {
-        case ActionTypes.selectedProducts:
+        case ActionTypes.SELECTED_PRODUCTS:
             return {...state, ...payload};
             // (...state) is used to get the current state.And the payload whatever had in the action from the api's data in the reducer.
         default:
