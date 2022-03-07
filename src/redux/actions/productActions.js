@@ -18,6 +18,14 @@ export const selectedProducts = (product) => {
     };
 };
 
+export const RemoveSelectedProducts = (product) => {
+    debugger;
+    return {
+        type: ActionTypes.REMOVE_SELECTED_PRODUCTS,
+    };
+};
+
+
 
 //We create action to change in the state in the reducer. 
 //We have different actions for different reducers.

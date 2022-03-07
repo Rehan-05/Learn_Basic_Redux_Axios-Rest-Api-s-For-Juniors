@@ -1,4 +1,4 @@
-import { ActionTypes,SELECTED_PRODUCTS } from "../constants/action-types";
+import { ActionTypes } from "../constants/action-types";
 
 const initialState = {
     products: [
@@ -22,11 +22,14 @@ export const SelectProductReducer= (state = {},{type,payload}) => {
         case ActionTypes.SELECTED_PRODUCTS:
             return {...state, ...payload};
             // (...state) is used to get the current state.And the payload whatever had in the action from the api's data in the reducer.
-        default:
+        case ActionTypes.REMOVE_SELECTED_PRODUCTS:
+            return {};
+            default:
             return state;
     }
  };
- 
+
+
 // Reducers having two parameters.one is the state and the other is the action. 
 // State is the current state of the application.State is the object that we send to the reducer.
 // Action is the object that we send to the reducer.
